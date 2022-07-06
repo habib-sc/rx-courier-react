@@ -24,30 +24,30 @@ const Header = () => {
     ];
 
     return (
-        <header className={`fixed top-0 w-full z-20 font-semibold ${navScroll ? 'bg-base-100 shadow-xl' : 'bg-transparen border-b border-b-gray-300'}`}>
-            <div className="container mx-auto navbar">
+        <header className={`fixed top-0 w-full border-b border-b-[#ffffff44] z-20 font-semibold ${navScroll ? 'bg-base-100 shadow-xl' : 'bg-transparen'}`}>
+            <div className="container mx-auto navbar text-white">
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <label tabindex="0" className="btn btn-ghost lg:hidden">
+                        <label tabindex="0" className="btn btn-ghost md:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
-                        <ul tabindex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-secondary text-white rounded-box w-52">
+                        <ul tabindex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-white text-neutral rounded-box w-52">
                             {
                                 navItems.map(item => <li id={item.id}><Link to={item.link}>{item.name}</Link></li>)
                             }
-                            <li><a href='/merchant-login'>Merchant Login</a></li>
+                            <li><a href='/merchant-login' className='btn bg-neutral border-none text-white font-semibold hover:text-white'>Merchant Login</a></li>
                         </ul>
                     </div>
                     <Link to='/' className="normal-case text-3xl">RX Courier</Link>
                 </div>
 
-                <div className="navbar-end hidden lg:flex">
+                <div className="navbar-end hidden md:flex">
                     <ul className="menu menu-horizontal p-0">
                         {
                             navItems.map(item => <li id={item.id}><Link to={item.link}>{item.name}</Link></li>)
                         }
 
-                        <li><a href='/merchant-login' className='btn btn-primary text-white'>Merchant Login</a></li>
+                        <li><a href='/merchant-login' className='btn bg-white border-none text-primary font-semibold hover:text-white'>Merchant Login</a></li>
                     </ul>
                 </div>
             </div>
