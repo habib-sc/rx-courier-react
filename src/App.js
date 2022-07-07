@@ -4,14 +4,19 @@ import Home from './components/Pages/Home';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "./components/Shared/Footer";
+import Header from "./components/Shared/Header";
 AOS.init()
 
 function App() {
   return (
     <div className="App">
+      <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
