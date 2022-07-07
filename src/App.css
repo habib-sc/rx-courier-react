@@ -2,6 +2,19 @@
   box-sizing: border-box;
 }
 
-.top-banner{
+/* Banner Right Animation */
+@keyframes floating {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
 
+#baner-right{
+  animation: floating 5s ease-in-out infinite;
 }

@@ -1,4 +1,3 @@
-import React from 'react';
 import heroImg from '../../assets/images/delivery-rx.png';
 
 const TopBanner = () => {
@@ -15,7 +14,7 @@ const TopBanner = () => {
                             
                         </div>
 
-                        <div className='bg-base-100 rounded-lg'>
+                        <div className='bg-base-100 rounded-lg' id="baner-right">
                             <img src={heroImg} className="rounded-3xl" alt=''></img>
                         </div>
                     </div>
