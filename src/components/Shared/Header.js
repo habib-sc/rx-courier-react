@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -24,8 +24,8 @@ const Header = () => {
     ];
 
     return (
-        <header className={`fixed top-0 w-full border-b border-b-[#ffffff44] z-20 font-semibold ${navScroll ? 'bg-base-100 shadow-xl' : 'bg-transparen'}`}>
-            <div className="container mx-auto navbar text-white">
+        <header className={`fixed top-0 w-full border-b border-b-[#ffffff44] z-20 font-semibold ${navScroll ? 'bg-base-100 shadow-xl' : 'bg-transparent'}`}>
+            <div className={`container mx-auto navbar text-white ${navScroll ? "text-neutral": ''}`}>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabindex="0" className="btn btn-ghost md:hidden">
@@ -35,7 +35,7 @@ const Header = () => {
                             {
                                 navItems.map(item => <li id={item.id}><Link to={item.link}>{item.name}</Link></li>)
                             }
-                            <li><a href='/merchant-login' className='btn bg-neutral border-none text-white font-semibold hover:text-white'>Merchant Login</a></li>
+                            <li><a href='/merchant-login' className={`btn border-none font-bold hover:text-white ${navScroll ? "bg-primary text-white": 'bg-white text-primary'}`}>Merchant Login</a></li>
                         </ul>
                     </div>
                     <Link to='/' className="normal-case text-3xl">RX Courier</Link>
@@ -47,7 +47,7 @@ const Header = () => {
                             navItems.map(item => <li id={item.id}><Link to={item.link}>{item.name}</Link></li>)
                         }
 
-                        <li><a href='/merchant-login' className='btn bg-white border-none text-primary font-semibold hover:text-white'>Merchant Login</a></li>
+                        <li><a href='/merchant-login' className={`btn border-none font-bold hover:text-white ${navScroll ? "bg-primary text-white": 'bg-white text-primary'}`}>Merchant Login</a></li>
                     </ul>
                 </div>
             </div>

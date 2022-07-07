@@ -1,0 +1,57 @@
+[
+    {
+      "id": "1",
+      "name": "Arm Chair Bubble",
+      "text": "Whether you need to send your father’s reading glasses or surprise your mom with a handwoven shawl, we’ll make sure everything moves with flexibility, speed, and accuracy.",
+      "img": "./images/service-dummy.webp",
+      "price": 119,
+      "qty": 0,
+      "supplierName": "Mr. Kabir Khan"
+    },
+    {
+      "id": "2",
+      "name": "Black Square Table Unique",
+      "text": "Whether you need to send your father’s reading glasses or surprise your mom with a handwoven shawl, we’ll make sure everything moves with flexibility, speed, and accuracy.",
+      "img": "./images/service-dummy.webp",
+      "price": 209,
+      "qty": 0,
+      "supplierName": "Arif Khan"
+    },
+    {
+      "id": "3",
+      "name": "Classic Single Chair",
+      "text": "Whether you need to send your father’s reading glasses or surprise your mom with a handwoven shawl, we’ll make sure everything moves with flexibility, speed, and accuracy.",
+      "img": "./images/service-dummy.webp",
+      "price": 149,
+      "qty": 0,
+      "supplierName": "Alom Shikder"
+    },
+    {
+      "id": "4",
+      "name": "Full Glass Cabinet",
+      "text": "Whether you need to send your father’s reading glasses or surprise your mom with a handwoven shawl, we’ll make sure everything moves with flexibility, speed, and accuracy.",
+      "img": "./images/service-dummy.webp",
+      "price": 749,
+      "qty": 0,
+      "supplierName": "Antar Mia"
+    },
+    {
+      "id": "5",
+      "name": "King Size Minimalist Bed Grey",
+      "text": "Whether you need to send your father’s reading glasses or surprise your mom with a handwoven shawl, we’ll make sure everything moves with flexibility, speed, and accuracy.",
+      "img": "./images/service-dummy.webp",
+      "price": 799,
+      "qty": 0,
+      "supplierName": "Kamal Uddin"
+    },
+    {
+      "id": "6",
+      "name": "Modern Dining Chair Grey",
+      "text": "Whether you need to send your father’s reading glasses or surprise your mom with a handwoven shawl, we’ll make sure everything moves with flexibility, speed, and accuracy.",
+      "img": "./images/service-dummy.webp",
+      "price": 45,
+      "qty": 0,
+      "supplierName": "Samiul Islam"
+    }
+ 
+]
