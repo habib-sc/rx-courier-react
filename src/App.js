@@ -1,7 +1,10 @@
-import logo from './logo.svg';
+import { Route, Routes } from "react-router-dom";
 import './App.css';
 import Home from './components/Pages/Home';
-import { Routes, Route } from "react-router-dom";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init()
 
 function App() {
   return (
