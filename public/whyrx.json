@@ -1,0 +1,33 @@
+[
+    {
+      "id": "1",
+      "name": "Fast Delivery",
+      "img": "./images/icons/fast-delivery.png"
+    },
+    {
+      "id": "2",
+      "name": "Dorestop Pickup & Delivery",
+      "img": "./images/icons/delivery-man.png"
+    },
+    {
+      "id": "3",
+      "name": "SMS Update",
+      "img": "./images/icons/chatting.png"
+    },
+    {
+      "id": "4",
+      "name": "Get payment next day",
+      "img": "./images/icons/cashless-payment.png"
+    },
+    {
+      "id": "5",
+      "name": "Secure Handling",
+      "img": "./images/icons/insurance.png"
+    },
+    {
+      "id": "6",
+      "name": "Competitive pricing",
+      "img": "./images/icons/pricing.png"
+    }
+ 
+]

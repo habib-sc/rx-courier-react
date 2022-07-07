@@ -6,7 +6,7 @@ const TopBanner = () => {
             <div className='h-screen bg-cover bg-primary opacity-90' id="top-banner">
                 <div className='container mx-auto px-4'>
                     <div className='grid gap-10 grid-cols-1 md:grid-cols-2 justify-between items-center pt-[65px] h-screen'>
-                        <div className='font-semibol' data-aos="fade-right">
+                        <div className='font-semibol' data-aos="fade-right" data-aos-duration="1000">
                             <div className='text-5xl uppercase text-white font-bold leading-tight flex flex-wrap gap-4'>
                                 <h1>We Provide</h1>
                                 <h1 className='w-[430px] bg-white text-primary text-center -skew-x-12 rounded-lg'>Fastest Delivery </h1>
@@ -31,7 +31,7 @@ const TopBanner = () => {
                         </div>
 
                         <div className='bg-base-100 rounded-lg flex justify-center' id="baner-right">
-                            <img src={heroImg} className="rounded-3xl" alt='' data-aos="fade-left"></img>
+                            <img src={heroImg} className="rounded-3xl" alt='' data-aos="fade-left" data-aos-duration="1000"></img>
                         </div>
                     </div>
                 </div>
