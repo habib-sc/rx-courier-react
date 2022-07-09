@@ -1,7 +1,7 @@
 
 const WhyRxItem = ({item}) => {
     return (
-        <div class="card bg-base-100 shadow-xl rounded-lg border border-primary">
+        <div class="card bg-base-100 shadow-xl rounded-lg border border-primary" data-aos="fade-up-right" data-aos-duration="1500" data-aos-delay="400">
             <figure class="px-10 pt-10">
                 <img src={item.img} alt="Shoes" class="rounded-xl" />
             </figure>
