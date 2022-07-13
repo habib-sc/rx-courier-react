@@ -5,7 +5,7 @@ import WhyRX from '../Shared/WhyRX/WhyRX';
 
 const Home = () => {
     return (
-        <div>
+        <div name="home">
             <TopBanner></TopBanner>
             <Services></Services>
             <WhyRX></WhyRX>

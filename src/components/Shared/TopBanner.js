@@ -2,7 +2,7 @@ import heroImg from '../../assets/images/delivery-rx.png';
 
 const TopBanner = () => {
     return (
-        <div style={{ backgroundImage: `url(/animated-bg.svg)` }}> 
+        <div style={{ backgroundImage: `url(/animated-bg.svg)` }} id="banner-clip"> 
             <div className='h-screen bg-cover bg-primary opacity-90' id="top-banner">
                 <div className='container mx-auto px-4'>
                     <div className='grid gap-10 grid-cols-1 md:grid-cols-2 justify-between items-center pt-[65px] h-screen'>
