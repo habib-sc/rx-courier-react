@@ -20,7 +20,7 @@ const TopBanner = () => {
                                 <form>
                                     <div className='flex items-center'>
                                         <span className='bg-white text-netral rounded-tl rounded-bl py-2.5 px-2 border border-solid border-orange-300 border-r-0 text-base font-normal'>+880</span>
-                                        <input type="tel" class="px-3 py-2.5 text-base font-normal bg-white bg-clip-padding border border-solid border-orange-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none rounded-tr rounded-br w-full max-w-xs" />
+                                        <input type="tel" className="px-3 py-2.5 text-base font-normal bg-white bg-clip-padding border border-solid border-orange-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none rounded-tr rounded-br w-full max-w-xs" />
                                         <button className='btn btn-primary rounded shadow-xl border-orange-300 mx-3'>Join Now</button>
                                     </div>
                                     
