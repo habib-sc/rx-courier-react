@@ -50,12 +50,12 @@ const Header = () => {
 
                     {/* Regular Navbar  */}
                     <div className="navbar-end hidden md:flex w-full">
-                        <ul className="menu menu-horizontal p-0 w-full">
+                        <ul className="menu menu-horizontal p-0 w-full flex justify-end">
                             {
-                                navItems.map(item => <li key={item.id}><Link to={item.link}>{item.name}</Link></li>)
+                                navItems.map(item => <li key={item.id} className='ml-3'><Link to={item.link}>{item.name}</Link></li>)
                             }
 
-                            <li><a href='/merchant-login' className={`btn border-none font-bold hover:text-white ${navScroll ? "bg-primary text-white": 'bg-white text-primary'} ${pathName !== "/" ? 'bg-primary text-white' : ''}`}>Merchant Login</a></li>
+                            <li className='ml-3'><a href='/merchant-login' className={`btn border-none font-bold hover:text-white ${navScroll ? "bg-primary text-white": 'bg-white text-primary'} ${pathName !== "/" ? 'bg-primary text-white' : ''}`}>Merchant Login</a></li>
                         </ul>
                     </div>
                 </div>
