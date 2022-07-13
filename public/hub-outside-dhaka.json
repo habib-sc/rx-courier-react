@@ -1,0 +1,28 @@
+[
+    {
+      "id": "1",
+      "hubName": "Faridpur", 
+      "address": "House #10, 2nd Floor, Road #12, Mirpur-10, Dhaka - 1216"
+    },
+    {
+      "id": "2",
+      "hubName": "Cumilla",
+      "address": "House #10, 2nd Floor, Road #12, Mirpur-10, Dhaka - 1216"
+    },
+    {
+      "id": "3",
+      "hubName": "Khulna",
+      "address": "House #10, 2nd Floor, Road #12, Mirpur-10, Dhaka - 1216"
+    },
+    {
+      "id": "4",
+      "hubName": "Chittagong",
+      "address": "House #10, 2nd Floor, Road #12, Mirpur-10, Dhaka - 1216"
+    },
+    {
+      "id": "5",
+      "hubName": "Noakhali",
+      "address": "House #10, 2nd Floor, Road #12, Mirpur-10, Dhaka - 1216"
+    }
+ 
+]

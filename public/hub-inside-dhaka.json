@@ -1,0 +1,33 @@
+[
+    {
+      "id": "1",
+      "hubName": "Karwan-Bazar", 
+      "address": "House #10, 2nd Floor, Road #12, Mirpur-10, Dhaka - 1216"
+    },
+    {
+      "id": "2",
+      "hubName": "Mirpur-10",
+      "address": "House #10, 2nd Floor, Road #12, Mirpur-10, Dhaka - 1216"
+    },
+    {
+      "id": "3",
+      "hubName": "Mohakhali",
+      "address": "House #10, 2nd Floor, Road #12, Mirpur-10, Dhaka - 1216"
+    },
+    {
+      "id": "4",
+      "hubName": "Rampura",
+      "address": "House #10, 2nd Floor, Road #12, Mirpur-10, Dhaka - 1216"
+    },
+    {
+      "id": "5",
+      "hubName": "Uttara",
+      "address": "House #10, 2nd Floor, Road #12, Mirpur-10, Dhaka - 1216"
+    },
+    {
+      "id": "6",
+      "hubName": "New Market",
+      "address": "House #10, 2nd Floor, Road #12, Mirpur-10, Dhaka - 1216"
+    }
+ 
+]
