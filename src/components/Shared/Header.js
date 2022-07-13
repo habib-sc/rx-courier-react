@@ -1,8 +1,11 @@
 import { useState } from 'react';
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
     const [navScroll, setNavScroll] = useState(false);
+
+    const location = useLocation();
+    const pathName = location.pathname;
 
     // Nav backgoround change on scroll 
     const setNavBg = () => {
@@ -15,6 +18,7 @@ const Header = () => {
     }
     window.addEventListener("scroll", setNavBg);
 
+    // Nav menu items 
     const navItems = [
             { id: 1, name: "Home", link: "/" },
             { id: 1, name: "Services", link: "/services" },
@@ -24,33 +28,40 @@ const Header = () => {
     ];
 
     return (
-        <header className={`fixed top-0 w-full border-b border-b-[#ffffff44] z-20 font-semibold ${navScroll ? 'bg-base-100 shadow-xl' : 'bg-transparent'}`}>
-            <div className={`container mx-auto navbar text-white ${navScroll ? "text-neutral": ''}`}>
-                <div className="navbar-start">
-                    <div className="dropdown">
-                        <label tabindex="0" className="btn btn-ghost md:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                        </label>
-                        <ul tabindex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-white text-neutral rounded-box w-52">
+        <header className={`fixed top-0 w-full border-b border-b-[#ffffff44] z-20 font-semibold ${navScroll ? 'bg-base-100 shadow-xl' : 'bg-transparent'} ${pathName !== "/" ? 'bg-base-100 shadow-xl' : ''}`}>
+            <div className='container mx-auto'>
+                <div className={`navbar text-white w-full ${navScroll || pathName !== "/" ? "text-neutral": ''}`}>
+
+                    {/* Mobile Navbar  */}
+                    <div className="navbar-start w-full">
+                        <div className="dropdown">
+                            <label tabindex="0" className="btn border-base-100 bg-transparent text-white mr-2 md:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                            </label>
+                            <ul tabindex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-white text-neutral rounded-box">
+                                {
+                                    navItems.map(item => <li id={item.id}><Link to={item.link}>{item.name}</Link></li>)
+                                }
+                                <li><a href='/merchant-login' className={`btn border-none font-bold hover:text-white ${navScroll ? "bg-primary text-white": 'bg-white text-primary'} ${pathName !== "/" ? 'bg-primary text-white' : ''}`}>Merchant Login</a></li>
+                            </ul>
+                        </div>
+                        <Link to='/' className="normal-case text-3xl">RX Courier</Link>
+                    </div>
+
+                    {/* Regular Navbar  */}
+                    <div className="navbar-end hidden md:flex w-full">
+                        <ul className="menu menu-horizontal p-0 w-full">
                             {
                                 navItems.map(item => <li id={item.id}><Link to={item.link}>{item.name}</Link></li>)
                             }
-                            <li><a href='/merchant-login' className={`btn border-none font-bold hover:text-white ${navScroll ? "bg-primary text-white": 'bg-white text-primary'}`}>Merchant Login</a></li>
+
+                            <li><a href='/merchant-login' className={`btn border-none font-bold hover:text-white ${navScroll ? "bg-primary text-white": 'bg-white text-primary'} ${pathName !== "/" ? 'bg-primary text-white' : ''}`}>Merchant Login</a></li>
                         </ul>
                     </div>
-                    <Link to='/' className="normal-case text-3xl">RX Courier</Link>
-                </div>
-
-                <div className="navbar-end hidden md:flex">
-                    <ul className="menu menu-horizontal p-0">
-                        {
-                            navItems.map(item => <li id={item.id}><Link to={item.link}>{item.name}</Link></li>)
-                        }
-
-                        <li><a href='/merchant-login' className={`btn border-none font-bold hover:text-white ${navScroll ? "bg-primary text-white": 'bg-white text-primary'}`}>Merchant Login</a></li>
-                    </ul>
                 </div>
             </div>
+
+
         </header>
     );
 };
