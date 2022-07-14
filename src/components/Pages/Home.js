@@ -1,5 +1,6 @@
-import Services from '../Services/Services';
+import CallToAction from '../Shared/CallToAction';
 import Hubs from '../Shared/RxHub/Hubs';
+import Services from '../Shared/Services/Services';
 import TopBanner from '../Shared/TopBanner';
 import WhyRX from '../Shared/WhyRX/WhyRX';
 
@@ -10,6 +11,7 @@ const Home = () => {
             <Services></Services>
             <WhyRX></WhyRX>
             <Hubs></Hubs>
+            <CallToAction></CallToAction>
         </div>
     );
 };
