@@ -5,14 +5,14 @@ const TopBanner = () => {
         <div style={{ backgroundImage: `url(/animated-bg.svg)` }} id="banner-clip"> 
             <div className='h-screen bg-cover bg-primary opacity-90' id="top-banner">
                 <div className='container mx-auto px-4'>
-                    <div className='grid gap-10 grid-cols-1 md:grid-cols-2 justify-between items-center pt-[65px] h-screen'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 justify-between items-center pt-0 md:pt-[65px] h-screen'>
                         <div className='font-semibol' data-aos="fade-right" data-aos-duration="1000">
-                            <div className='text-5xl uppercase text-white font-bold leading-tight flex flex-wrap gap-4'>
-                                <h1>We Provide</h1>
+                            <div className='text-2xl md:text-5xl uppercase text-white font-bold leading-tight flex flex-wrap gap-4'>
+                                <h1 className='text-center md:text-left w-full'>We Provide</h1>
                                 <h1 className='w-[430px] bg-white text-primary text-center -skew-x-12 rounded-lg'>Fastest Delivery </h1>
                             </div>
 
-                            <p className='text-white mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis explicabo natus aut temporibus, obcaecati neque ipsam quia nostrum, blanditiis aspernatur voluptas veniam. Sequi doloremque nulla animi obcaecati odio magni non?</p>
+                            <p className='text-white mt-2 hidden md:inline-block'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis explicabo natus aut temporibus, obcaecati neque ipsam quia nostrum, blanditiis aspernatur voluptas veniam. Sequi doloremque nulla animi obcaecati odio magni non?</p>
 
                             <div className='mt-4 p-4 rounded-lg left-banner-input-box pb-7 min-h-xs'>
                                 <h3 className='text-3xl font-semibold mb-2 text-white mt-0'>Join As Merchant</h3>
@@ -30,7 +30,7 @@ const TopBanner = () => {
 
                         </div>
 
-                        <div className='bg-base-100 rounded-lg flex justify-center' id="baner-right">
+                        <div className='bg-base-100 rounded-lg flex justify-center -mt-[250px] md:mt-0' id="baner-right">
                             <img src={heroImg} className="rounded-3xl" alt='' data-aos="fade-left" data-aos-duration="1000"></img>
                         </div>
                     </div>
