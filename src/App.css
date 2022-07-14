@@ -29,3 +29,17 @@
 .left-banner-input-box{
   background-color: rgba(255, 255, 255, 0.24);
 }
+
+
+/* Tab design  */
+.react-tabs__tab-list {
+	border-bottom: 1px solid #f56505 !important;
+}
+
+.react-tabs__tab--selected {
+    background: #f56505 !important;
+    border-color: #f56505 !important;
+    color: white !important;
+    border-radius: 0;
+	border: none;
+}
