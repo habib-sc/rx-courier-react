@@ -11,7 +11,7 @@ const WhyRX = () => {
     }, []);
 
     return (
-        <section className="container px-4 mx-auto my-10">
+        <section className="container px-4 mx-auto py-10 mb-10">
             <div className="text-4xl font-semibold text-primary flex justify-center">
                 <div>
                     <h2 className="">Why RX Courier</h2>

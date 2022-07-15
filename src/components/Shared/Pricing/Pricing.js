@@ -6,7 +6,7 @@ const Pricing = () => {
     return (
         <section name="pricing" className='container px-4 mx-auto py-10' data-aos="fade-up-right" data-aos-duration="1500" data-aos-delay="800">
             {/* Pricing Start */}
-            <div className="text-4xl font-semibold text-primary flex justify-center mb-10">
+            <div className="text-4xl font-semibold text-primary flex justify-center my-10">
                 <div>
                     <h2 className="">RX Courier Pricing</h2>
                     <div className="border border-t-2 border-t-primary w-16 mt-3"></div>
