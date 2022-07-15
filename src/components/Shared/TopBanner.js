@@ -5,7 +5,7 @@ const TopBanner = () => {
         <div style={{ backgroundImage: `url(/animated-bg.svg)` }} id="banner-clip"> 
             <div className='h-screen bg-cover bg-primary opacity-90' id="top-banner">
                 <div className='container mx-auto px-4'>
-                    <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 justify-between items-center pt-0 md:pt-[65px] h-screen'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 justify-between items-center pt-0 h-screen'>
                         <div className='font-semibol' data-aos="fade-right" data-aos-duration="1000">
                             <div className='text-2xl md:text-5xl uppercase text-white font-bold leading-tight flex flex-wrap gap-4'>
                                 <h1 className='text-center md:text-left w-full'>We Provide</h1>
