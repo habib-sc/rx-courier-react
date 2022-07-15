@@ -37,19 +37,19 @@ const Footer = () => {
                             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">ADDRESS</h2>
                             <nav className="list-none mb-10">
                                 <li className='flex items-center justify-center md:justify-start'>
-                                    <div className='bg-orange-200 p-2 rounded-full mr-2 my-1'>
+                                    <div className='bg-orange-50 shadow-lg p-2 rounded-full mr-2 my-1'>
                                         <GeoAlt className='text-2xl text-orange-500'></GeoAlt>
                                     </div>
                                     <p className="text-gray-600 hover:text-gray-800">Location: #House 454, #Rd 8, #Block C, Mirpur, Dhaka</p>
                                 </li>
                                 <li className='flex items-center justify-center md:justify-start'>
-                                    <div className='bg-orange-200 p-2 rounded-full mr-2 my-1'>
+                                    <div className='bg-orange-50 shadow-lg p-2 rounded-full mr-2 my-1'>
                                         <Envelope className='text-2xl text-orange-500'></Envelope>
                                     </div>
                                     <p className="text-gray-600 hover:text-gray-800">Email: info@rxcourier.com</p>
                                 </li>
                                 <li className='flex items-center justify-center md:justify-start'>
-                                    <div className='bg-orange-200 p-2 rounded-full mr-2 my-1'>
+                                    <div className='bg-orange-50 shadow-lg p-2 rounded-full mr-2 my-1'>
                                         <Telephone className='text-2xl text-orange-500'></Telephone>
                                     </div>
                                     <p className="text-gray-600 hover:text-gray-800">Phone: +8801961584280</p>
@@ -61,16 +61,16 @@ const Footer = () => {
                         <div className="lg:w-1/4 md:w-1/2 w-full pl-4 mb-5">
                             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">FOLLOW US</h2>
                             <span className="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
-                                <a href='#' className="text-gray-500 bg-orange-200 p-3 rounded-full">
+                                <a href='#' className="text-gray-500 bg-orange-50 shadow-lg p-3 rounded-full">
                                     <Facebook className='text-2xl text-orange-500'></Facebook>
                                 </a>
-                                <a href='#' className="ml-3 text-gray-500 bg-orange-200 p-3 rounded-full">
+                                <a href='#' className="ml-3 text-gray-500 bg-orange-50 shadow-lg p-3 rounded-full">
                                     <Twitter className='text-2xl text-orange-500'></Twitter>
                                 </a>
-                                <a href='#' className="ml-3 text-gray-500 bg-orange-200 p-3 rounded-full">
+                                <a href='#' className="ml-3 text-gray-500 bg-orange-50 shadow-lg p-3 rounded-full">
                                     <Linkedin className='text-2xl text-orange-500'></Linkedin>
                                 </a>
-                                <a href='#' className="ml-3 text-gray-500 bg-orange-200 p-3 rounded-full">
+                                <a href='#' className="ml-3 text-gray-500 bg-orange-50 shadow-lg p-3 rounded-full">
                                     <Youtube className='text-2xl text-orange-500'></Youtube>
                                 </a>
                             </span>
