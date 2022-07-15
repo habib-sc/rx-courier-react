@@ -130,7 +130,7 @@ const Pricing = () => {
 
             <div className='text-center my-10 bg-orange-50 py-4 px-4 rounded-lg shadow-lg'>
                 <p className='mb-8 text-4xl font-bold'>Please Contact us for Enterprice Price Details</p>
-                <button className='btn btn-primary md:text-xl px-10'>Estimated Delivery Charges</button>
+                <button className='btn btn-primary md:text-xl px-10'>Get Estimated Charges</button>
             </div>
 
         </section>
