@@ -2,7 +2,7 @@ import React from 'react';
 
 const FAQ = () => {
     return (
-        <section className='container px-4 mx-auto py-10' data-aos="fade-up-left" data-aos-duration="1500" data-aos-delay="900">
+        <section className='container px-4 mx-auto py-10 mb-10' data-aos="fade-up-left" data-aos-duration="1500" data-aos-delay="900">
             {/* Faq title Start */}
             <div className="text-4xl font-semibold text-primary flex justify-center mb-10">
                 <div>

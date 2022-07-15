@@ -19,7 +19,7 @@ const Hubs = () => {
     }, []);
 
     return (
-        <div className='container px-4 mx-auto py-10'>
+        <div className='container px-4 mx-auto py-10' name="coverage">
             {/* Hub title Start */}
             <div className="text-4xl font-semibold text-primary flex justify-center mb-10">
                 <div>

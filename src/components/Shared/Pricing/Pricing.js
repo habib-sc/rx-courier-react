@@ -4,7 +4,7 @@ import 'react-tabs/style/react-tabs.css';
 
 const Pricing = () => {
     return (
-        <section className='container px-4 mx-auto py-10' data-aos="fade-up-right" data-aos-duration="1500" data-aos-delay="800">
+        <section name="pricing" className='container px-4 mx-auto py-10' data-aos="fade-up-right" data-aos-duration="1500" data-aos-delay="800">
             {/* Pricing Start */}
             <div className="text-4xl font-semibold text-primary flex justify-center mb-10">
                 <div>
