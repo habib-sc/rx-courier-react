@@ -43,3 +43,9 @@
     border-radius: 0;
 	border: none;
 }
+
+/* Active scroll design  */
+
+.active-scroll{
+	border-bottom: 1px solid #f56505;
+}

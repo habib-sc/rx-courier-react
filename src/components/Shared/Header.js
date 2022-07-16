@@ -60,9 +60,6 @@ const Header = () => {
                         <ul className="menu menu-horizontal p-0 w-full flex justify-end">
 
                             <li className='ml-3'>
-                                <ScrollLink to='home' activeClass="active-scroll" spy={true} smooth={true} duration={500} offset={-100}>Home</ScrollLink>
-                            </li>
-                            <li className='ml-3'>
                                 <ScrollLink to='services' activeClass="active-scroll" spy={true} smooth={true} duration={500} offset={-100}>Services</ScrollLink>
                             </li>
                             <li className='ml-3'>
