@@ -46,7 +46,15 @@ const Header = () => {
                                     <ScrollLink to='contact-us' activeClass="active-scroll" spy={true} smooth={true} duration={500} offset={-140}>Contact Us</ScrollLink>
                                 </li>
 
-                                <li><a href='/merchant-login' className={`btn border-none font-bold hover:text-white ${navScroll ? "bg-primary text-white": 'bg-white text-primary'} ${pathName !== "/" ? 'bg-primary text-white' : ''}`}>Merchant Login</a></li>
+                                <li className='ml-3'>
+                                    <label htmlFor="merchant-login"  className={`btn border-none font-bold hover:text-white ${navScroll ? "bg-primary text-white": 'bg-white text-primary'} ${pathName !== "/" ? 'bg-primary text-white' : ''}`}> Merchant Login</label>
+                                </li>
+
+
+                                <li className='ml-3'>
+                                    <label htmlFor="merchant-register" className={`btn bg-neutral text-white border-none font-bold hover:text-white ${navScroll ? "bg-primary text-white": 'bg-white text-primary'} ${pathName !== "/" ? 'bg-primary text-white' : ''}`}>Register as Merchant</label>
+                                </li>
+
                             </ul>
                         </div>
                         <Link to='/' className="normal-case text-3xl">RX Courier</Link>
