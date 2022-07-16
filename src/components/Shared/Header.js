@@ -34,9 +34,6 @@ const Header = () => {
                             <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-white text-neutral rounded-box">
                                 
                                 <li className='ml-3'>
-                                    <ScrollLink to='home' activeClass="active-scroll" spy={true} smooth={true} duration={500} offset={-100}>Home</ScrollLink>
-                                </li>
-                                <li className='ml-3'>
                                     <ScrollLink to='services' activeClass="active-scroll" spy={true} smooth={true} duration={500} offset={-100}>Services</ScrollLink>
                                 </li>
                                 <li className='ml-3'>
@@ -73,7 +70,14 @@ const Header = () => {
                             </li>
    
 
-                            <li className='ml-3'><a href='/merchant-login' className={`btn border-none font-bold hover:text-white ${navScroll ? "bg-primary text-white": 'bg-white text-primary'} ${pathName !== "/" ? 'bg-primary text-white' : ''}`}>Merchant Login</a></li>
+                            <li className='ml-3'>
+                                <label htmlFor="merchant-login"  className={`btn border-none font-bold hover:text-white ${navScroll ? "bg-primary text-white": 'bg-white text-primary'} ${pathName !== "/" ? 'bg-primary text-white' : ''}`}> Merchant Login</label>
+                            </li>
+
+
+                            <li className='ml-3'>
+                                <label htmlFor="merchant-register" className={`btn bg-neutral text-white border-none font-bold hover:text-white ${navScroll ? "bg-primary text-white": 'bg-white text-primary'} ${pathName !== "/" ? 'bg-primary text-white' : ''}`}>Register as Merchant</label>
+                            </li>
                         </ul>
                     </div>
                 </div>
